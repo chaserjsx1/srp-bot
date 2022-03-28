@@ -9,7 +9,7 @@ export default (serverInfo) => {
         .setDescription(serverInfo.description)
         .setURL(`https://acstuff.ru/s/q:race/online/join?ip=${ip}&httpPort=${port}`)
         .setAuthor(serverInfo.name)
-        .setThumbnail('https://cdn.discordapp.com/attachments/671487944250490902/832189834700652604/newlogob.png')
+        .setThumbnail('https://cdn.discordapp.com/attachments/848226875272724480/873991141299736576/OEM_v5.png')
         .addField('Status:', serverInfo.status, true)
         .addField('\u200b', '\u200b', true)
         .addField('Players:', `:video_game: ${serverInfo.currentPlayers || 0}/${serverInfo.maxPlayers || 0}`, true)
